@@ -2,11 +2,19 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900");
 
 @font-face {
-  font-family: "Simplifica";
-  src: url("../webfonts/SIMPLIFICA.ttf") format("truetype");
-  font-weight: 300;
-  font-style: normal;
+	font-family: 'GothicA1';
+	src: url("../webfonts/GothicA1-Thin.ttf") format("truetype");
+	font-weight: 300;
+	font-style: normal;
 }
+
+@font-face {
+	font-family: 'WorkSans';
+	src: url("../webfonts/WorkSans-Light.ttf") format("truetype");
+	font-weight: 300;
+	font-style: normal;
+}
+
 
 /*
 	Phantom by HTML5 UP
@@ -3312,5 +3320,6 @@ h4, h5, h6 { font-size: 0.8em; }
 			}
 
 		}
+
 
 
