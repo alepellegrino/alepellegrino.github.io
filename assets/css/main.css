@@ -2,19 +2,18 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900");
 
 @font-face {
-	font-family: 'GothicA1';
-	src: url("../webfonts/GothicA1-Thin.ttf") format("truetype");
-	font-weight: 300;
-	font-style: normal;
+    font-family: "GothicA1";
+    src: url("../webfonts/GothicA1-Thin.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
 }
 
 @font-face {
-	font-family: 'WorkSans';
-	src: url("../webfonts/WorkSans-Light.ttf") format("truetype");
-	font-weight: 300;
-	font-style: normal;
+    font-family: "WorkSans";
+    src: url("../webfonts/WorkSans-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
 }
-
 
 /*
 	Phantom by HTML5 UP
@@ -132,12 +131,15 @@ input, select, textarea {
 
 /* Type */
 
-	body, input, select, textarea {
+/* Type */
+
+body, input, select, textarea {
   color: #ffffff;
-  font-family: "Simplifica", "Source Sans Pro", Helvetica, sans-serif;
+  font-family: "WorkSans", Helvetica, sans-serif;
   font-size: 16pt;
   font-weight: 300;
   line-height: 1.75;
+  text-transform: lowercase;
 }
 
 @media screen and (max-width: 1680px) {
@@ -150,8 +152,7 @@ input, select, textarea {
   body, input, select, textarea {
     font-size: 12pt;
   }
-
-		}
+}
 
 	a {
 		-moz-transition: border-bottom-color 0.2s ease, color 0.2s ease;
@@ -180,14 +181,15 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 	}
 
-	h1 {
-  font-family: "Simplifica", "Source Sans Pro", Helvetica, sans-serif;
-  color: #ffffff; /* título branco */
-  font-size: 2.75em;
-  font-weight: 700;
+h1 {
+  font-family: "GothicA1", Helvetica, sans-serif;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 100;
   line-height: 1.3;
   margin: 0 0 1em 0;
-  letter-spacing: -0.035em;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 
 h1 a {
@@ -208,18 +210,20 @@ h1 a {
 }
 
 h2, h3, h4, h5, h6 {
-  font-family: "Simplifica", "Source Sans Pro", Helvetica, sans-serif;
-  color: #ffffff; /* títulos brancos */
-  font-weight: 900;
+  font-family: "GothicA1", Helvetica, sans-serif;
+  color: #ffffff;
+  font-weight: 100;
   line-height: 1.5;
   margin: 0 0 2em 0;
   text-transform: uppercase;
   letter-spacing: 0.35em;
 }
 
+h1 a,
 h2 a, h3 a, h4 a, h5 a, h6 a {
-  color: inherit; /* mantém branco se houver links */
+  color: inherit;
 }
+
 
 /* tamanhos continuam os mesmos */
 h2 { font-size: 1.1em; }
@@ -3320,6 +3324,7 @@ h4, h5, h6 { font-size: 0.8em; }
 			}
 
 		}
+
 
 
 
