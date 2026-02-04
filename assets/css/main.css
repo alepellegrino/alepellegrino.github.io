@@ -178,8 +178,14 @@ body, input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2em 0;
-	}
+  font-family: "Work Sans", Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #ffffff;
+  text-transform: none;
+  line-height: 1.6;
+  margin: 0 0 2em 0;
+}
 
 h1 {
   font-family: "GothicA1", Helvetica, sans-serif;
@@ -3324,6 +3330,7 @@ h4, h5, h6 { font-size: 0.8em; }
 			}
 
 		}
+
 
 
 
