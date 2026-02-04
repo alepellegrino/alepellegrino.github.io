@@ -1,6 +1,13 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900");
 
+@font-face {
+  font-family: "Simplifica";
+  src: url("../webfonts/SIMPLIFICA.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
 /*
 	Phantom by HTML5 UP
 	html5up.net | @ajlkn
@@ -118,26 +125,23 @@ input, select, textarea {
 /* Type */
 
 	body, input, select, textarea {
-		color: #585858;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
-		font-size: 16pt;
-		font-weight: 300;
-		line-height: 1.75;
-	}
+  color: #ffffff;
+  font-family: "Simplifica", "Source Sans Pro", Helvetica, sans-serif;
+  font-size: 16pt;
+  font-weight: 300;
+  line-height: 1.75;
+}
 
-		@media screen and (max-width: 1680px) {
+@media screen and (max-width: 1680px) {
+  body, input, select, textarea {
+    font-size: 14pt;
+  }
+}
 
-			body, input, select, textarea {
-				font-size: 14pt;
-			}
-
-		}
-
-		@media screen and (max-width: 1280px) {
-
-			body, input, select, textarea {
-				font-size: 12pt;
-			}
+@media screen and (max-width: 1280px) {
+  body, input, select, textarea {
+    font-size: 12pt;
+  }
 
 		}
 
@@ -169,83 +173,62 @@ input, select, textarea {
 	}
 
 	h1 {
-		font-size: 2.75em;
-		font-weight: 700;
-		line-height: 1.3;
-		margin: 0 0 1em 0;
-		letter-spacing: -0.035em;
-	}
+  font-family: "Simplifica", "Source Sans Pro", Helvetica, sans-serif;
+  color: #ffffff; /* título branco */
+  font-size: 2.75em;
+  font-weight: 700;
+  line-height: 1.3;
+  margin: 0 0 1em 0;
+  letter-spacing: -0.035em;
+}
 
-		h1 a {
-			color: inherit;
-		}
+h1 a {
+  color: inherit; /* mantém branco se houver link dentro do título */
+}
 
-		@media screen and (max-width: 736px) {
+@media screen and (max-width: 736px) {
+  h1 {
+    font-size: 2em;
+    margin: 0 0 1em 0;
+  }
+}
 
-			h1 {
-				font-size: 2em;
-				margin: 0 0 1em 0;
-			}
+@media screen and (max-width: 360px) {
+  h1 {
+    font-size: 1.75em;
+  }
+}
 
-		}
+h2, h3, h4, h5, h6 {
+  font-family: "Simplifica", "Source Sans Pro", Helvetica, sans-serif;
+  color: #ffffff; /* títulos brancos */
+  font-weight: 900;
+  line-height: 1.5;
+  margin: 0 0 2em 0;
+  text-transform: uppercase;
+  letter-spacing: 0.35em;
+}
 
-		@media screen and (max-width: 360px) {
+h2 a, h3 a, h4 a, h5 a, h6 a {
+  color: inherit; /* mantém branco se houver links */
+}
 
-			h1 {
-				font-size: 1.75em;
-			}
+/* tamanhos continuam os mesmos */
+h2 { font-size: 1.1em; }
+h3 { font-size: 1em; }
+h4, h5, h6 { font-size: 0.8em; }
 
-		}
+/* responsividade */
+@media screen and (max-width: 980px) {
+  h1 br, h2 br, h3 br, h4 br, h5 br, h6 br {
+    display: none;
+  }
+}
 
-	h2, h3, h4, h5, h6 {
-		font-weight: 900;
-		line-height: 1.5;
-		margin: 0 0 2em 0;
-		text-transform: uppercase;
-		letter-spacing: 0.35em;
-	}
-
-		h2 a, h3 a, h4 a, h5 a, h6 a {
-			color: inherit;
-		}
-
-	h2 {
-		font-size: 1.1em;
-	}
-
-	h3 {
-		font-size: 1em;
-	}
-
-	h4 {
-		font-size: 0.8em;
-	}
-
-	h5 {
-		font-size: 0.8em;
-	}
-
-	h6 {
-		font-size: 0.8em;
-	}
-
-	@media screen and (max-width: 980px) {
-
-		h1 br, h2 br, h3 br, h4 br, h5 br, h6 br {
-			display: none;
-		}
-
-	}
-
-	@media screen and (max-width: 736px) {
-
-		h2 {
-			font-size: 1em;
-		}
-
-		h3 {
-			font-size: 0.8em;
-		}
+@media screen and (max-width: 736px) {
+  h2 { font-size: 1em; }
+  h3 { font-size: 0.8em; }
+}
 
 	}
 
@@ -3329,4 +3312,5 @@ input, select, textarea {
 			}
 
 		}
+
 
