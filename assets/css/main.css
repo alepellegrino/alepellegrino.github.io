@@ -1625,7 +1625,7 @@ h4, h5, h6 { font-size: 0.8em; }
 
 				.row > .col-6-xsmall {
 					width: 50%;
-				}
+				}	
 
 				.row > .off-6-xsmall {
 					margin-left: 50%;
@@ -2597,13 +2597,15 @@ h4, h5, h6 { font-size: 0.8em; }
 				position: relative;
 				display: block;
 				width: 100%;
+				aspect-ratio: 16 / 9;
 				border-radius: 4px;
 				overflow: hidden;
 			}
 
 				.tiles article > .image img {
-					display: block;
 					width: 100%;
+  height: 100%;
+  object-fit: cover;
 				}
 
 				.tiles article > .image:before {
@@ -3320,6 +3322,7 @@ h4, h5, h6 { font-size: 0.8em; }
 			}
 
 		}
+
 
 
 
