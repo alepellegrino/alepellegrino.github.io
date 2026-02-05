@@ -2710,6 +2710,10 @@ h4, h5, h6 { font-size: 0.8em; }
 						margin-bottom: 0;
 					}
 
+					.tiles article > a .content {
+						display: none;
+					}
+
 			.tiles article.style1 > .image:before {
 				background-color: #f2849e;
 			}
@@ -3322,6 +3326,7 @@ h4, h5, h6 { font-size: 0.8em; }
 			}
 
 		}
+
 
 
 
