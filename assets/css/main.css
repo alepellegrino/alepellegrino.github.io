@@ -3189,11 +3189,16 @@ h4, h5, h6 { font-size: 0.8em; }
 
 		@media screen and (max-width: 736px) {
 
-			#wrapper > * > .inner {
-				padding: 0 1.25em;
-			}
+	#wrapper > * > .inner {
+		padding: 0 1.25em;
+	}
 
-		}
+	}
+
+	/* Remove zoom do hover dos tiles */
+	.tiles article:hover > a {
+		transform: none !important;
+	}
 
 
 
