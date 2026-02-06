@@ -2962,32 +2962,6 @@ h4, h5, h6 { font-size: 0.8em; }
 					#header nav ul li a[href="#menu"]:before, #header nav ul li a[href="#menu"]:after {
 						background-size: 1.5em 1.5em;
 					}
-			
-#header .inner {
-    text-align: center;
-}
-
-#header .logo .title {
-    font-size: 3em;       
-    font-weight: 900;     
-    letter-spacing: 0.35em; 
-    display: inline-block;  
-    text-transform: uppercase; 
-    color: #ffffff;       
-    margin-bottom: 2em;   
-}
-
-@media screen and (max-width: 736px) {
-    #header .logo .title {
-        font-size: 2em;  
-    }
-}
-
-@media screen and (max-width: 360px) {
-    #header .logo .title {
-        font-size: 1.75em; 
-    }
-}
 
 
 /* Menu */
@@ -3211,6 +3185,7 @@ h4, h5, h6 { font-size: 0.8em; }
 	.tiles article:hover > a {
 		transform: none !important;
 	}
+
 
 
 
