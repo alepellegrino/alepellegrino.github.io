@@ -2977,6 +2977,12 @@ h4, h5, h6 { font-size: 0.8em; }
   text-transform: uppercase;
 }
 
+.home-header h1 a {
+  text-decoration: none;
+  border-bottom: none;
+  color: inherit;
+}
+
 /* Menu */
 
 	#wrapper {
@@ -3198,6 +3204,7 @@ h4, h5, h6 { font-size: 0.8em; }
 	.tiles article:hover > a {
 		transform: none !important;
 	}
+
 
 
 
