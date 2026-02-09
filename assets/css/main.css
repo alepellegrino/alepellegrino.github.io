@@ -3015,6 +3015,23 @@ h4, h5, h6 { font-size: 0.8em; }
   color: #f2849e;
 }
 
+@media screen and (max-width: 736px) {
+  .main-menu {
+    margin-top: 1em;
+    margin-bottom: 2em;
+  }
+
+  .main-menu li {
+    display: block;        /* um embaixo do outro */
+    margin: 0.4em 0;       /* espaço vertical entre itens */
+  }
+
+  .main-menu a {
+    font-size: 0.9rem;     /* pode aumentar um pouco no celular */
+    letter-spacing: 0.12em;
+  }
+}
+
 /* Menu */
 
 	#wrapper {
@@ -3236,6 +3253,7 @@ h4, h5, h6 { font-size: 0.8em; }
 	.tiles article:hover > a {
 		transform: none !important;
 	}
+
 
 
 
